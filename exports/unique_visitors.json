@@ -1,0 +1,33 @@
+{
+  "total_unique_visitor_days": 244485,
+  "dates": [
+    {
+      "date": "2026-11-01",
+      "unique_visitors": 34921
+    },
+    {
+      "date": "2026-11-02",
+      "unique_visitors": 34963
+    },
+    {
+      "date": "2026-11-03",
+      "unique_visitors": 34912
+    },
+    {
+      "date": "2026-11-04",
+      "unique_visitors": 34920
+    },
+    {
+      "date": "2026-11-05",
+      "unique_visitors": 34939
+    },
+    {
+      "date": "2026-11-06",
+      "unique_visitors": 34930
+    },
+    {
+      "date": "2026-11-07",
+      "unique_visitors": 34900
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "total_referrals": 164312,
+  "referrers": [
+    {
+      "source": "Direct / None",
+      "count": 61458
+    },
+    {
+      "source": "https://www.google.com/",
+      "count": 51586
+    },
+    {
+      "source": "https://www.bing.com/",
+      "count": 14705
+    },
+    {
+      "source": "https://t.co/",
+      "count": 11600
+    },
+    {
+      "source": "https://www.linkedin.com/",
+      "count": 7432
+    },
+    {
+      "source": "https://duckduckgo.com/",
+      "count": 7318
+    },
+    {
+      "source": "https://www.reddit.com/",
+      "count": 5765
+    },
+    {
+      "source": "https://news.ycombinator.com/",
+      "count": 4448
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "error_rate_percentage": 12.56,
+  "total_errors": 30711,
+  "status_classes": [
+    {
+      "class": "2xx",
+      "count": 195836
+    },
+    {
+      "class": "3xx",
+      "count": 17992
+    },
+    {
+      "class": "4xx",
+      "count": 22009
+    },
+    {
+      "class": "5xx",
+      "count": 8702
+    }
+  ],
+  "status_codes": [
+    {
+      "code": 200,
+      "count": 195836
+    },
+    {
+      "code": 301,
+      "count": 6805
+    },
+    {
+      "code": 304,
+      "count": 11187
+    },
+    {
+      "code": 400,
+      "count": 2217
+    },
+    {
+      "code": 403,
+      "count": 6435
+    },
+    {
+      "code": 404,
+      "count": 13357
+    },
+    {
+      "code": 500,
+      "count": 7594
+    },
+    {
+      "code": 502,
+      "count": 674
+    },
+    {
+      "code": 503,
+      "count": 434
+    }
+  ],
+  "top_failing_urls": [
+    {
+      "url": "/admin/login.php [Status 404]",
+      "count": 1285
+    },
+    {
+      "url": "/admin/login.php [Status 403]",
+      "count": 1219
+    },
+    {
+      "url": "/admin/login.php [Status 500]",
+      "count": 1182
+    },
+    {
+      "url": "/legacy/catalog-v1 [Status 403]",
+      "count": 1064
+    },
+    {
+      "url": "/ [Status 404]",
+      "count": 1021
+    },
+    {
+      "url": "/legacy/catalog-v1 [Status 404]",
+      "count": 998
+    },
+    {
+      "url": "/legacy/catalog-v1 [Status 500]",
+      "count": 974
+    },
+    {
+      "url": "/wp-login.php [Status 500]",
+      "count": 857
+    },
+    {
+      "url": "/wp-login.php [Status 403]",
+      "count": 842
+    },
+    {
+      "url": "/wp-login.php [Status 404]",
+      "count": 763
+    },
+    {
+      "url": "/products [Status 404]",
+      "count": 755
+    },
+    {
+      "url": "/.env [Status 404]",
+      "count": 704
+    },
+    {
+      "url": "/.env [Status 500]",
+      "count": 672
+    },
+    {
+      "url": "/.env [Status 403]",
+      "count": 653
+    },
+    {
+      "url": "/js/app.js [Status 404]",
+      "count": 650
+    },
+    {
+      "url": "/css/main.css [Status 404]",
+      "count": 642
+    },
+    {
+      "url": "/js/analytics.js [Status 404]",
+      "count": 550
+    },
+    {
+      "url": "/products/laptop [Status 404]",
+      "count": 534
+    },
+    {
+      "url": "/products/phone [Status 404]",
+      "count": 485
+    },
+    {
+      "url": "/hidden/backup.zip [Status 500]",
+      "count": 448
+    },
+    {
+      "url": "/css/theme.css [Status 404]",
+      "count": 433
+    },
+    {
+      "url": "/cart [Status 404]",
+      "count": 426
+    },
+    {
+      "url": "/hidden/backup.zip [Status 403]",
+      "count": 421
+    },
+    {
+      "url": "/hidden/backup.zip [Status 404]",
+      "count": 420
+    },
+    {
+      "url": "/ [Status 500]",
+      "count": 394
+    },
+    {
+      "url": "/images/logo.png [Status 404]",
+      "count": 387
+    },
+    {
+      "url": "/favicon.ico [Status 404]",
+      "count": 354
+    },
+    {
+      "url": "/products/headphones [Status 404]",
+      "count": 349
+    },
+    {
+      "url": "/api/v1/search [Status 404]",
+      "count": 333
+    },
+    {
+      "url": "/images/hero-banner.jpg [Status 404]",
+      "count": 328
+    }
+  ]
+}

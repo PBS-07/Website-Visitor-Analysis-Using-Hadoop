@@ -1,0 +1,8 @@
+# Enforce LF for shell scripts and configs to prevent \r\n issues in Linux containers
+*.sh text eol=lf
+*.hql text eol=lf
+*.xml text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+Makefile text eol=lf
+

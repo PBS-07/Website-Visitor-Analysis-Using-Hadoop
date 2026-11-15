@@ -1,0 +1,210 @@
+generator:
+  seed: 42
+  default_days: 7
+  records_per_day: 100000
+  bot_share: 0.10
+  malformed_rate: 0.005 # 0.5% malformed lines for dead-letter testing
+  zipf_alpha: 1.3
+
+  urls:
+    pages:
+      - path: "/"
+        weight: 100
+      - path: "/products"
+        weight: 75
+      - path: "/products/laptop"
+        weight: 50
+      - path: "/products/phone"
+        weight: 45
+      - path: "/products/headphones"
+        weight: 35
+      - path: "/products/tablet"
+        weight: 30
+      - path: "/cart"
+        weight: 40
+      - path: "/checkout"
+        weight: 20
+      - path: "/login"
+        weight: 25
+      - path: "/register"
+        weight: 15
+      - path: "/blog"
+        weight: 30
+      - path: "/blog/hadoop-performance-tuning"
+        weight: 20
+      - path: "/about"
+        weight: 15
+      - path: "/contact"
+        weight: 10
+      - path: "/api/v1/search"
+        weight: 35
+      - path: "/api/v1/recommendations"
+        weight: 25
+    static_assets:
+      - path: "/css/main.css"
+        weight: 60
+      - path: "/css/theme.css"
+        weight: 40
+      - path: "/js/app.js"
+        weight: 60
+      - path: "/js/analytics.js"
+        weight: 50
+      - path: "/images/logo.png"
+        weight: 40
+      - path: "/images/hero-banner.jpg"
+        weight: 30
+      - path: "/favicon.ico"
+        weight: 35
+    error_urls:
+      - path: "/admin/login.php"
+        weight: 15
+      - path: "/wp-login.php"
+        weight: 10
+      - path: "/.env"
+        weight: 8
+      - path: "/legacy/catalog-v1"
+        weight: 12
+      - path: "/hidden/backup.zip"
+        weight: 5
+
+  status_codes:
+    200: 0.84
+    301: 0.03
+    304: 0.05
+    400: 0.01
+    403: 0.01
+    404: 0.04
+    500: 0.015
+    502: 0.003
+    503: 0.002
+
+  http_methods:
+    GET: 0.82
+    POST: 0.12
+    HEAD: 0.04
+    PUT: 0.01
+    DELETE: 0.01
+
+  referrers:
+    - url: "-"
+      weight: 30
+    - url: "https://www.google.com/"
+      weight: 35
+    - url: "https://www.bing.com/"
+      weight: 10
+    - url: "https://duckduckgo.com/"
+      weight: 5
+    - url: "https://t.co/"
+      weight: 8
+    - url: "https://www.linkedin.com/"
+      weight: 5
+    - url: "https://www.reddit.com/"
+      weight: 4
+    - url: "https://news.ycombinator.com/"
+      weight: 3
+
+  user_agents:
+    desktop:
+      - ua: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        browser: "Chrome"
+        os: "Windows"
+        device: "Desktop"
+        weight: 35
+      - ua: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        browser: "Chrome"
+        os: "macOS"
+        device: "Desktop"
+        weight: 15
+      - ua: "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/121.0"
+        browser: "Firefox"
+        os: "Windows"
+        device: "Desktop"
+        weight: 10
+      - ua: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Safari/605.1.15"
+        browser: "Safari"
+        os: "macOS"
+        device: "Desktop"
+        weight: 8
+      - ua: "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        browser: "Chrome"
+        os: "Linux"
+        device: "Desktop"
+        weight: 4
+    mobile:
+      - ua: "Mozilla/5.0 (iPhone; CPU iPhone OS 17_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Mobile/15E148 Safari/604.1"
+        browser: "Safari"
+        os: "iOS"
+        device: "Mobile"
+        weight: 12
+      - ua: "Mozilla/5.0 (Linux; Android 14; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.144 Mobile Safari/537.36"
+        browser: "Chrome"
+        os: "Android"
+        device: "Mobile"
+        weight: 10
+    tablet:
+      - ua: "Mozilla/5.0 (iPad; CPU OS 17_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Mobile/15E148 Safari/604.1"
+        browser: "Safari"
+        os: "iOS"
+        device: "Tablet"
+        weight: 3
+      - ua: "Mozilla/5.0 (Linux; Android 13; SM-X900) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        browser: "Chrome"
+        os: "Android"
+        device: "Tablet"
+        weight: 2
+    bots:
+      - ua: "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+        browser: "Googlebot"
+        os: "Unknown"
+        device: "Bot"
+        weight: 40
+      - ua: "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+        browser: "Bingbot"
+        os: "Unknown"
+        device: "Bot"
+        weight: 25
+      - ua: "Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)"
+        browser: "Baiduspider"
+        os: "Unknown"
+        device: "Bot"
+        weight: 15
+      - ua: "curl/8.4.0"
+        browser: "curl"
+        os: "Unknown"
+        device: "Bot"
+        weight: 10
+      - ua: "python-requests/2.31.0"
+        browser: "python-requests"
+        os: "Unknown"
+        device: "Bot"
+        weight: 10
+
+  countries:
+    - country: "US"
+      prefix: "13"
+      weight: 35
+    - country: "IN"
+      prefix: "103"
+      weight: 25
+    - country: "GB"
+      prefix: "81"
+      weight: 12
+    - country: "DE"
+      prefix: "194"
+      weight: 8
+    - country: "CA"
+      prefix: "142"
+      weight: 6
+    - country: "JP"
+      prefix: "133"
+      weight: 5
+    - country: "FR"
+      prefix: "80"
+      weight: 4
+    - country: "AU"
+      prefix: "139"
+      weight: 3
+    - country: "BR"
+      prefix: "177"
+      weight: 2
+

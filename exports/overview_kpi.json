@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-11-10T17:15:15.721328+00:00",
+  "kpis": {
+    "total_hits": 244539,
+    "unique_visitors": 34963,
+    "error_rate_percentage": 12.56,
+    "avg_session_duration_seconds": 0.0,
+    "bounce_rate_percentage": 100.0,
+    "total_sessions": 146346,
+    "avg_pages_per_session": 1.0
+  },
+  "pipeline_health": {
+    "status": "HEALTHY",
+    "total_raw_lines": 245810,
+    "clean_records_count": 244539,
+    "rejected_lines_count": 1271,
+    "duplicate_lines_removed": 0,
+    "last_pipeline_run": "2026-11-10 17:15:15 UTC"
+  }
+}

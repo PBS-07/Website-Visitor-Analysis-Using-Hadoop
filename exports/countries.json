@@ -1,0 +1,40 @@
+{
+  "countries": [
+    {
+      "country": "US",
+      "count": 85520
+    },
+    {
+      "country": "IN",
+      "count": 61120
+    },
+    {
+      "country": "GB",
+      "count": 29263
+    },
+    {
+      "country": "DE",
+      "count": 19732
+    },
+    {
+      "country": "CA",
+      "count": 14666
+    },
+    {
+      "country": "JP",
+      "count": 12361
+    },
+    {
+      "country": "FR",
+      "count": 9676
+    },
+    {
+      "country": "AU",
+      "count": 7353
+    },
+    {
+      "country": "BR",
+      "count": 4848
+    }
+  ]
+}

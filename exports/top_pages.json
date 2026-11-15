@@ -1,0 +1,143 @@
+{
+  "total_page_views": 164312,
+  "pages": [
+    {
+      "rank": 1,
+      "url": "/",
+      "hits": 25533,
+      "percentage": 15.54
+    },
+    {
+      "rank": 2,
+      "url": "/products",
+      "hits": 19192,
+      "percentage": 11.68
+    },
+    {
+      "rank": 3,
+      "url": "/products/laptop",
+      "hits": 12736,
+      "percentage": 7.75
+    },
+    {
+      "rank": 4,
+      "url": "/products/phone",
+      "hits": 11686,
+      "percentage": 7.11
+    },
+    {
+      "rank": 5,
+      "url": "/cart",
+      "hits": 10430,
+      "percentage": 6.35
+    },
+    {
+      "rank": 6,
+      "url": "/products/headphones",
+      "hits": 9043,
+      "percentage": 5.5
+    },
+    {
+      "rank": 7,
+      "url": "/api/v1/search",
+      "hits": 8871,
+      "percentage": 5.4
+    },
+    {
+      "rank": 8,
+      "url": "/blog",
+      "hits": 7664,
+      "percentage": 4.66
+    },
+    {
+      "rank": 9,
+      "url": "/products/tablet",
+      "hits": 7576,
+      "percentage": 4.61
+    },
+    {
+      "rank": 10,
+      "url": "/login",
+      "hits": 6455,
+      "percentage": 3.93
+    },
+    {
+      "rank": 11,
+      "url": "/api/v1/recommendations",
+      "hits": 6287,
+      "percentage": 3.83
+    },
+    {
+      "rank": 12,
+      "url": "/blog/hadoop-performance-tuning",
+      "hits": 5121,
+      "percentage": 3.12
+    },
+    {
+      "rank": 13,
+      "url": "/checkout",
+      "hits": 5036,
+      "percentage": 3.06
+    },
+    {
+      "rank": 14,
+      "url": "/about",
+      "hits": 3853,
+      "percentage": 2.34
+    },
+    {
+      "rank": 15,
+      "url": "/register",
+      "hits": 3767,
+      "percentage": 2.29
+    },
+    {
+      "rank": 16,
+      "url": "/admin/login.php",
+      "hits": 3686,
+      "percentage": 2.24
+    },
+    {
+      "rank": 17,
+      "url": "/robots.txt",
+      "hits": 3037,
+      "percentage": 1.85
+    },
+    {
+      "rank": 18,
+      "url": "/legacy/catalog-v1",
+      "hits": 3036,
+      "percentage": 1.85
+    },
+    {
+      "rank": 19,
+      "url": "/sitemap.xml",
+      "hits": 2990,
+      "percentage": 1.82
+    },
+    {
+      "rank": 20,
+      "url": "/contact",
+      "hits": 2533,
+      "percentage": 1.54
+    },
+    {
+      "rank": 21,
+      "url": "/wp-login.php",
+      "hits": 2462,
+      "percentage": 1.5
+    },
+    {
+      "rank": 22,
+      "url": "/.env",
+      "hits": 2029,
+      "percentage": 1.23
+    },
+    {
+      "rank": 23,
+      "url": "/hidden/backup.zip",
+      "hits": 1289,
+      "percentage": 0.78
+    }
+  ]
+}

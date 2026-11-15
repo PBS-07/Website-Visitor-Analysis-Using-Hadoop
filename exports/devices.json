@@ -1,0 +1,80 @@
+{
+  "device_types": [
+    {
+      "device": "Desktop",
+      "count": 160420
+    },
+    {
+      "device": "Mobile",
+      "count": 53312
+    },
+    {
+      "device": "Bot",
+      "count": 24175
+    },
+    {
+      "device": "Tablet",
+      "count": 6632
+    }
+  ],
+  "browsers": [
+    {
+      "browser": "Chrome",
+      "count": 146865
+    },
+    {
+      "browser": "Safari",
+      "count": 51079
+    },
+    {
+      "browser": "Firefox",
+      "count": 22420
+    },
+    {
+      "browser": "Googlebot",
+      "count": 9644
+    },
+    {
+      "browser": "Bingbot",
+      "count": 6067
+    },
+    {
+      "browser": "Baiduspider",
+      "count": 3642
+    },
+    {
+      "browser": "curl",
+      "count": 2434
+    },
+    {
+      "browser": "python-requests",
+      "count": 2388
+    }
+  ],
+  "os": [
+    {
+      "os": "Windows",
+      "count": 100635
+    },
+    {
+      "os": "macOS",
+      "count": 51086
+    },
+    {
+      "os": "iOS",
+      "count": 33306
+    },
+    {
+      "os": "Android",
+      "count": 26638
+    },
+    {
+      "os": "Other",
+      "count": 24175
+    },
+    {
+      "os": "Linux",
+      "count": 8699
+    }
+  ]
+}

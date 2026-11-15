@@ -1,0 +1,8 @@
+{
+  "status": "HEALTHY",
+  "total_raw_lines": 245810,
+  "clean_records_count": 244539,
+  "rejected_lines_count": 1271,
+  "duplicate_lines_removed": 0,
+  "last_pipeline_run": "2026-11-10 17:15:15 UTC"
+}
